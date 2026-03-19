@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+      ;(function () {
+        var segmentCount = 1
+        var l = window.location
+        var pathSegments = l.pathname.split('/')
+        var repoRoot = pathSegments.slice(0, 1 + segmentCount).join('/')
+        var rest = pathSegments.slice(1 + segmentCount).join('/')
+        var search = l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : ''
+        l.replace(l.protocol + '//' + l.host + repoRoot + '/?/' + rest.replace(/&/g, '~and~') + search + l.hash)
+      })()
+    </script>
+  </head>
+  <body></body>
+</html>
+

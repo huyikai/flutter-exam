@@ -1,0 +1,11 @@
+.DS_Store
+.cursor/
+terminals/
+agent-transcripts/
+
+# Node / Vite (project lives in /web)
+web/node_modules/
+web/dist/
+web/dist-ssr/
+web/.env*
+

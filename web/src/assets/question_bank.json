@@ -1,0 +1,2736 @@
+{
+  "version": 1,
+  "questions": [
+    {
+      "id": 1,
+      "type": "single",
+      "stem": "Flutter中用于创建用户界面的基本单位是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "函数"
+        },
+        {
+          "key": "B",
+          "text": "应用"
+        },
+        {
+          "key": "C",
+          "text": "组件"
+        },
+        {
+          "key": "D",
+          "text": "Widget"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 2,
+      "type": "single",
+      "stem": "下面哪个是Flutter中的布局Widget？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Text"
+        },
+        {
+          "key": "B",
+          "text": "Image"
+        },
+        {
+          "key": "C",
+          "text": "Row"
+        },
+        {
+          "key": "D",
+          "text": "Button"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 3,
+      "type": "single",
+      "stem": "如何在为ElevatedButton添加一个点击事件？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用onClick方法"
+        },
+        {
+          "key": "B",
+          "text": "使用onPressed属性"
+        },
+        {
+          "key": "C",
+          "text": "使用onTap方法"
+        },
+        {
+          "key": "D",
+          "text": "使用addEventListener方法"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 4,
+      "type": "single",
+      "stem": "Flutter中的StatefulWidget和StatelessWidget有何不同？",
+      "options": [
+        {
+          "key": "A",
+          "text": "StatefulWidget不能重建UI"
+        },
+        {
+          "key": "B",
+          "text": "StatelessWidget可以改变其状态"
+        },
+        {
+          "key": "C",
+          "text": "StatefulWidget可以在用户交互或数据变化时更新界面"
+        },
+        {
+          "key": "D",
+          "text": "StatelessWidgeth和StatefulWidget没有区别"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 5,
+      "type": "single",
+      "stem": "哪个Widget可以用来添加滚动效果？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Column"
+        },
+        {
+          "key": "B",
+          "text": "ListView"
+        },
+        {
+          "key": "C",
+          "text": "Text"
+        },
+        {
+          "key": "D",
+          "text": "Stack"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 6,
+      "type": "single",
+      "stem": "在Flutter中，如何使Widget水平居中？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用Center Widget并设置alignment属性为Alignment.center"
+        },
+        {
+          "key": "B",
+          "text": "使用Align Widget并设置alignment属性为Alignment.centerHorizontal"
+        },
+        {
+          "key": "C",
+          "text": "使用 Row Widget 并设置mainAxisAlignment为MainAxisAlignment.center"
+        },
+        {
+          "key": "D",
+          "text": "使用Center Widget并设置alignment属性为Alignment.horizontal"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 7,
+      "type": "single",
+      "stem": "为了在Flutter中创建一个路由并导航至新页面，你需要使用什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Navigator.push()"
+        },
+        {
+          "key": "B",
+          "text": "MaterialApp.route()"
+        },
+        {
+          "key": "C",
+          "text": "WidgetsApp.createRoute()"
+        },
+        {
+          "key": "D",
+          "text": "PageRouteBuilder()"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 8,
+      "type": "single",
+      "stem": "Flutter中全局状态管理推荐使用哪个方法？",
+      "options": [
+        {
+          "key": "A",
+          "text": "setState"
+        },
+        {
+          "key": "B",
+          "text": "StreamBuilder"
+        },
+        {
+          "key": "C",
+          "text": "Provider"
+        },
+        {
+          "key": "D",
+          "text": "GlobalKey"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 9,
+      "type": "single",
+      "stem": "Flutter应用的入口点是什么函数？",
+      "options": [
+        {
+          "key": "A",
+          "text": "main()"
+        },
+        {
+          "key": "B",
+          "text": "start()"
+        },
+        {
+          "key": "C",
+          "text": "runApp()"
+        },
+        {
+          "key": "D",
+          "text": "FlutterInit()"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 10,
+      "type": "single",
+      "stem": "以下哪个Widget用于在Flutter中创建图标？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Icon"
+        },
+        {
+          "key": "B",
+          "text": "Image"
+        },
+        {
+          "key": "C",
+          "text": "IconButton"
+        },
+        {
+          "key": "D",
+          "text": "ImageIcon"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 11,
+      "type": "single",
+      "stem": "如何在Flutter中为Text Widget设置样式？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用style属性"
+        },
+        {
+          "key": "B",
+          "text": "使用TextStyle类"
+        },
+        {
+          "key": "C",
+          "text": "使用CSS"
+        },
+        {
+          "key": "D",
+          "text": "A和B都是"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 12,
+      "type": "single",
+      "stem": "在Flutter中，题目修改为在 Row 或 Column 中在主轴方向上对齐？",
+      "options": [
+        {
+          "key": "A",
+          "text": "align"
+        },
+        {
+          "key": "B",
+          "text": "alignment"
+        },
+        {
+          "key": "C",
+          "text": "mainAxisAlignment"
+        },
+        {
+          "key": "D",
+          "text": "crossAxisAlignment"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 13,
+      "type": "single",
+      "stem": "如何在 Dart3 正确声明一个可能为null的字符串变量？",
+      "options": [
+        {
+          "key": "A",
+          "text": "String? name;"
+        },
+        {
+          "key": "B",
+          "text": "Nullable<String> name;"
+        },
+        {
+          "key": "C",
+          "text": "String name?;"
+        },
+        {
+          "key": "D",
+          "text": "final name: String?"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 14,
+      "type": "single",
+      "stem": "如何在Flutter中创建一个无限滚动的列表？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用ListView.builder()"
+        },
+        {
+          "key": "B",
+          "text": "使用ListView.infinity()"
+        },
+        {
+          "key": "C",
+          "text": "使用ScrollableWidget"
+        },
+        {
+          "key": "D",
+          "text": "使用InfiniteList"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 15,
+      "type": "single",
+      "stem": "在Flutter中，用于检测用户手势的Widget是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "GestureDetector"
+        },
+        {
+          "key": "B",
+          "text": "TouchListener"
+        },
+        {
+          "key": "C",
+          "text": "OnClick"
+        },
+        {
+          "key": "D",
+          "text": "GestureListener"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 16,
+      "type": "single",
+      "stem": "在Dart3 中，如何声明一个返回int类型且接受一个可选的、具名且可空的 int 参数的函数？",
+      "options": [
+        {
+          "key": "A",
+          "text": "int function({int? parameter})"
+        },
+        {
+          "key": "B",
+          "text": "function int()"
+        },
+        {
+          "key": "C",
+          "text": "int? function({int parameter})"
+        },
+        {
+          "key": "D",
+          "text": "int function({int? parameter})"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 17,
+      "type": "single",
+      "stem": "Flutter 专门用来添加列表视图的 Widget 是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "ScrollView"
+        },
+        {
+          "key": "B",
+          "text": "ListView"
+        },
+        {
+          "key": "C",
+          "text": "Column"
+        },
+        {
+          "key": "D",
+          "text": "ListWidget"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 18,
+      "type": "single",
+      "stem": "如何在Flutter应用中全局更改字体大小？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用TextStyle Widget"
+        },
+        {
+          "key": "B",
+          "text": "在MaterialApp的theme属性中设置"
+        },
+        {
+          "key": "C",
+          "text": "修改Dart代码中的字体大小设置"
+        },
+        {
+          "key": "D",
+          "text": "在Flutter配置文件中设置"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 19,
+      "type": "single",
+      "stem": "在Flutter中，哪个Widget用于制作基础的按钮？",
+      "options": [
+        {
+          "key": "A",
+          "text": "SimpleButton"
+        },
+        {
+          "key": "B",
+          "text": "RaisedButton"
+        },
+        {
+          "key": "C",
+          "text": "ElevatedButton"
+        },
+        {
+          "key": "D",
+          "text": "FlatButton"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 20,
+      "type": "single",
+      "stem": "哪个命令用于用于在Flutter项目中启动 build_runner？",
+      "options": [
+        {
+          "key": "A",
+          "text": "flutter build_runner run"
+        },
+        {
+          "key": "B",
+          "text": "flutter pub get"
+        },
+        {
+          "key": "C",
+          "text": "dart run build_runner build"
+        },
+        {
+          "key": "D",
+          "text": "dart build build_runner"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 21,
+      "type": "single",
+      "stem": "Flutter中Container Widget的主要用途是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "容纳单个子Widget并提供对齐、填充等样式"
+        },
+        {
+          "key": "B",
+          "text": "创建复杂的用户界面"
+        },
+        {
+          "key": "C",
+          "text": "容纳多个子Widget"
+        },
+        {
+          "key": "D",
+          "text": "实现滚动效果"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 22,
+      "type": "single",
+      "stem": "如何在Flutter中关闭当前页面并返回上一页面？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用Navigator.pop(context)"
+        },
+        {
+          "key": "B",
+          "text": "使用Navigator.push(context)"
+        },
+        {
+          "key": "C",
+          "text": "使用Navigator.close(context)"
+        },
+        {
+          "key": "D",
+          "text": "使用Navigator.back(context)"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 23,
+      "type": "single",
+      "stem": "在Flutter中，FloatingActionButton通常用于什么目的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "展示广告"
+        },
+        {
+          "key": "B",
+          "text": "悬浮操作按钮，常用于触发主要的应用动作"
+        },
+        {
+          "key": "C",
+          "text": "浮动文本输入框"
+        },
+        {
+          "key": "D",
+          "text": "弹出菜单按钮"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 24,
+      "type": "single",
+      "stem": "Flutter中，使用哪个Widget可以创建透明度动画？",
+      "options": [
+        {
+          "key": "A",
+          "text": "AnimatedOpacity"
+        },
+        {
+          "key": "B",
+          "text": "OpacityAnimation"
+        },
+        {
+          "key": "C",
+          "text": "FadeWidget"
+        },
+        {
+          "key": "D",
+          "text": "TransparentAnimation"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 25,
+      "type": "single",
+      "stem": "如果你没有指定函数的返回类型，Dart会默认将其设置为什么类型？",
+      "options": [
+        {
+          "key": "A",
+          "text": "int"
+        },
+        {
+          "key": "B",
+          "text": "void"
+        },
+        {
+          "key": "C",
+          "text": "dynamic"
+        },
+        {
+          "key": "D",
+          "text": "String"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 26,
+      "type": "single",
+      "stem": "Flutter中，哪个类用于在Widget树中向下传递数据？",
+      "options": [
+        {
+          "key": "A",
+          "text": "DataProvider"
+        },
+        {
+          "key": "B",
+          "text": "InheritedWidget"
+        },
+        {
+          "key": "C",
+          "text": "StateManagement"
+        },
+        {
+          "key": "D",
+          "text": "Broadcast"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 27,
+      "type": "single",
+      "stem": "为了在Flutter中对齐Widget，我们通常使用哪个Widget？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Align"
+        },
+        {
+          "key": "B",
+          "text": "Center"
+        },
+        {
+          "key": "C",
+          "text": "Padding"
+        },
+        {
+          "key": "D",
+          "text": "A和B都是"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 28,
+      "type": "single",
+      "stem": "Flutter的MaterialApp和CupertinoApp有什么区别？",
+      "options": [
+        {
+          "key": "A",
+          "text": "MaterialApp用于Android，CupertinoApp用于iOS"
+        },
+        {
+          "key": "B",
+          "text": "没有区别，只是命名不同"
+        },
+        {
+          "key": "C",
+          "text": "MaterialApp使用Material Design，CupertinoApp使用iOS风格"
+        },
+        {
+          "key": "D",
+          "text": "CupertinoApp比MaterialApp提供更多功能"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 29,
+      "type": "single",
+      "stem": "哪个命令用于创建一个新的Flutter项目？",
+      "options": [
+        {
+          "key": "A",
+          "text": "flutter new"
+        },
+        {
+          "key": "B",
+          "text": "flutter create"
+        },
+        {
+          "key": "C",
+          "text": "flutter start"
+        },
+        {
+          "key": "D",
+          "text": "flutter init"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 30,
+      "type": "single",
+      "stem": "Flutter中默认的动画曲线（Curves）是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "linear"
+        },
+        {
+          "key": "B",
+          "text": "ease"
+        },
+        {
+          "key": "C",
+          "text": "decelerate"
+        },
+        {
+          "key": "D",
+          "text": "easeIn"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 31,
+      "type": "single",
+      "stem": "如何在Flutter中更新Widget的状态？",
+      "options": [
+        {
+          "key": "A",
+          "text": "修改Widget的属性"
+        },
+        {
+          "key": "B",
+          "text": "调用setState()"
+        },
+        {
+          "key": "C",
+          "text": "重启应用"
+        },
+        {
+          "key": "D",
+          "text": "使用StatefulBuilder"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 32,
+      "type": "single",
+      "stem": "Flutter中Expanded Widget的作用是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "增加Widget的大小"
+        },
+        {
+          "key": "B",
+          "text": "使子Widget填充可用空间"
+        },
+        {
+          "key": "C",
+          "text": "添加额外的空间到布局中"
+        },
+        {
+          "key": "D",
+          "text": "控制Widget的扩展和收缩"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 33,
+      "type": "single",
+      "stem": "要在Flutter中创建一个水平列表，应使用以下哪个Widget？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Column"
+        },
+        {
+          "key": "B",
+          "text": "ListView.horizontal()"
+        },
+        {
+          "key": "C",
+          "text": "ListView并设置scrollDirection为Axis.horizontal"
+        },
+        {
+          "key": "D",
+          "text": "HorizontalView"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 34,
+      "type": "single",
+      "stem": "以下代码的功能是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "创建一个文本输入框"
+        },
+        {
+          "key": "B",
+          "text": "在屏幕上显示带有边距的文本"
+        },
+        {
+          "key": "C",
+          "text": "创建一个可以点击的按钮"
+        },
+        {
+          "key": "D",
+          "text": "显示一个对话框"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 35,
+      "type": "single",
+      "stem": "下面哪个写法可以显示隐藏键盘的效果？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用Keyboard.dismiss()"
+        },
+        {
+          "key": "B",
+          "text": "调用FocusScope.of(context).unfocus()"
+        },
+        {
+          "key": "C",
+          "text": "设置TextField的hideKeyboard属性为true"
+        },
+        {
+          "key": "D",
+          "text": "使用HideKeyboardWidget"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 36,
+      "type": "single",
+      "stem": "在Flutter中，哪个属性用于在Stack Widget中定位子Widget？",
+      "options": [
+        {
+          "key": "A",
+          "text": "position"
+        },
+        {
+          "key": "B",
+          "text": "alignment"
+        },
+        {
+          "key": "C",
+          "text": "direction"
+        },
+        {
+          "key": "D",
+          "text": "Anchor"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 37,
+      "type": "multi",
+      "stem": "（多选题）考虑以下Flutter代码片段，哪些陈述是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Column是一个用于垂直布局的Widget"
+        },
+        {
+          "key": "B",
+          "text": "ElevatedButton已经被TextButton替代"
+        },
+        {
+          "key": "C",
+          "text": "Expanded使其子Widget填充未被其他子Widget占用的额外空间"
+        },
+        {
+          "key": "D",
+          "text": "FittedBox用于确保图片完全填充可用空间"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 38,
+      "type": "multi",
+      "stem": "（多选题）在Flutter中使用ListView.builder时，以下哪些属性是可选的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "itemCount"
+        },
+        {
+          "key": "B",
+          "text": "itemBuilder"
+        },
+        {
+          "key": "C",
+          "text": "scrollDirection"
+        },
+        {
+          "key": "D",
+          "text": "shrinkWrap"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 39,
+      "type": "single",
+      "stem": "关于const的说法, 下面哪项是错误的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "可以用于修饰类的构造函数"
+        },
+        {
+          "key": "B",
+          "text": "构造函数创建的实例在编译时就已确定"
+        },
+        {
+          "key": "C",
+          "text": "使用可以减少内存分配"
+        },
+        {
+          "key": "D",
+          "text": "修饰的变量可以在运行时改变其值"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 40,
+      "type": "multi",
+      "stem": "（多选题）给定以下代码，选择关于debugPrint功能的正确陈述：",
+      "options": [
+        {
+          "key": "A",
+          "text": "debugPrint在生产环境中自动禁用"
+        },
+        {
+          "key": "B",
+          "text": "debugPrint帮助避免控制台日志被截断"
+        },
+        {
+          "key": "C",
+          "text": "使用debugPrint与直接使用print函数没有区别"
+        },
+        {
+          "key": "D",
+          "text": "debugPrint适用于打印复杂对象和大量数据"
+        }
+      ],
+      "answerKeys": [
+        "B",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 41,
+      "type": "multi",
+      "stem": "（多选题）哪个Flutter插件用于状态管理？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Provider"
+        },
+        {
+          "key": "B",
+          "text": "Riverpod"
+        },
+        {
+          "key": "C",
+          "text": "GetX"
+        },
+        {
+          "key": "D",
+          "text": "Bloc"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 42,
+      "type": "single",
+      "stem": "哪个方法在Widget被永久移除Widget树时调用？",
+      "options": [
+        {
+          "key": "A",
+          "text": "dispose()"
+        },
+        {
+          "key": "B",
+          "text": "deactivate()"
+        },
+        {
+          "key": "C",
+          "text": "removeState()"
+        },
+        {
+          "key": "D",
+          "text": "build()"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 43,
+      "type": "multi",
+      "stem": "（多选题）关于Flutter布局，下面哪些说法是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Column Widget可以使其子Widget水平排列。"
+        },
+        {
+          "key": "B",
+          "text": "Padding Widget用于给其他Widget添加填充。"
+        },
+        {
+          "key": "C",
+          "text": "Expanded Widget可以使其子Widget填满额外的空间。"
+        },
+        {
+          "key": "D",
+          "text": "Stack Widget可以将子Widget堆叠在一起。"
+        }
+      ],
+      "answerKeys": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 44,
+      "type": "single",
+      "stem": "Flutter的Hot Reload功能有什么用？",
+      "options": [
+        {
+          "key": "A",
+          "text": "允许你在不重启应用的情况下重新加载UI"
+        },
+        {
+          "key": "B",
+          "text": "使应用运行更快"
+        },
+        {
+          "key": "C",
+          "text": "在应用崩溃时自动修复代码"
+        },
+        {
+          "key": "D",
+          "text": "更新应用的依赖库"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 45,
+      "type": "single",
+      "stem": "如何在Flutter中捕获Widget的尺寸变化？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用SizeChangedNotifier Widget"
+        },
+        {
+          "key": "B",
+          "text": "监听MediaQuery数据的变化"
+        },
+        {
+          "key": "C",
+          "text": "通过LayoutBuilder Widget"
+        },
+        {
+          "key": "D",
+          "text": "使用onSizeChanged回调"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 46,
+      "type": "multi",
+      "stem": "（多选题）Fluter 中的 ThemeData 可以用来？",
+      "options": [
+        {
+          "key": "A",
+          "text": "管理应用的导航结构"
+        },
+        {
+          "key": "B",
+          "text": "存储应用的本地数据"
+        },
+        {
+          "key": "C",
+          "text": "自定义应用的整体视觉主题"
+        },
+        {
+          "key": "D",
+          "text": "控制应用的字体大小"
+        }
+      ],
+      "answerKeys": [
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 47,
+      "type": "single",
+      "stem": "在Flutter应用中如何优化列表的性能？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用ListView.builder()"
+        },
+        {
+          "key": "B",
+          "text": "将所有列表项作为子Widget直接添加到ListView中"
+        },
+        {
+          "key": "C",
+          "text": "使用Column Widget代替ListView"
+        },
+        {
+          "key": "D",
+          "text": "限制列表的滚动速度"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 48,
+      "type": "single",
+      "stem": "Flutter中的动画框架不包括哪个组件？",
+      "options": [
+        {
+          "key": "A",
+          "text": "AnimationController"
+        },
+        {
+          "key": "B",
+          "text": "Tween"
+        },
+        {
+          "key": "C",
+          "text": "AnimatedWidget"
+        },
+        {
+          "key": "D",
+          "text": "AnimateBuilder"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 49,
+      "type": "single",
+      "stem": "使用StreamBuilder的主要目的是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "实现数据的同步更新"
+        },
+        {
+          "key": "B",
+          "text": "监听异步数据流"
+        },
+        {
+          "key": "C",
+          "text": "创建响应式布局"
+        },
+        {
+          "key": "D",
+          "text": "管理应用状态"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 50,
+      "type": "single",
+      "stem": "Flutter中的InheritedWidget用于什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "提供一个数据共享的框架"
+        },
+        {
+          "key": "B",
+          "text": "实现Widget的继承"
+        },
+        {
+          "key": "C",
+          "text": "控制Widget的渲染"
+        },
+        {
+          "key": "D",
+          "text": "管理应用的生命周期"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 51,
+      "type": "single",
+      "stem": "如何在Flutter中实现动态主题切换？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用ThemeData切换MaterialApp的theme属性"
+        },
+        {
+          "key": "B",
+          "text": "重新启动应用"
+        },
+        {
+          "key": "C",
+          "text": "修改系统设置"
+        },
+        {
+          "key": "D",
+          "text": "使用SetState直接修改颜色值"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 52,
+      "type": "single",
+      "stem": "Flutter布局中ConstrainedBox的作用是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "限制子Widget的大小"
+        },
+        {
+          "key": "B",
+          "text": "添加额外的约束到Box上"
+        },
+        {
+          "key": "C",
+          "text": "扩展Box的尺寸"
+        },
+        {
+          "key": "D",
+          "text": "A和B都是"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 53,
+      "type": "single",
+      "stem": "哪个Widget用于在Flutter中捕获异常并显示友好的错误消息？",
+      "options": [
+        {
+          "key": "A",
+          "text": "ErrorWidget"
+        },
+        {
+          "key": "B",
+          "text": "Scaffold"
+        },
+        {
+          "key": "C",
+          "text": "FlutterError"
+        },
+        {
+          "key": "D",
+          "text": "ErrorListener"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 54,
+      "type": "single",
+      "stem": "Flutter中Opacity Widget的用途是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "改变Widget的透明度"
+        },
+        {
+          "key": "B",
+          "text": "创建淡入淡出动画"
+        },
+        {
+          "key": "C",
+          "text": "隐藏Widget"
+        },
+        {
+          "key": "D",
+          "text": "控制Widget的可见性"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 55,
+      "type": "single",
+      "stem": "在Flutter中，使用什么来优化具有大量数据的列表性能？",
+      "options": [
+        {
+          "key": "A",
+          "text": "ListView.builder()"
+        },
+        {
+          "key": "B",
+          "text": "ListView()"
+        },
+        {
+          "key": "C",
+          "text": "Expanded()"
+        },
+        {
+          "key": "D",
+          "text": "SingleChildScrollView()"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 56,
+      "type": "multi",
+      "stem": "（多选题）CustomScrollView的主要用途是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "创建自定义的滚动效果"
+        },
+        {
+          "key": "B",
+          "text": "替代ListView和GridView"
+        },
+        {
+          "key": "C",
+          "text": "合并不同类型的滚动视图"
+        },
+        {
+          "key": "D",
+          "text": "实现滚动动画"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 57,
+      "type": "single",
+      "stem": "下面哪个方法是用于制作带有多个子项的滚动列表，且每个子项高度固定的最佳方法？",
+      "options": [
+        {
+          "key": "A",
+          "text": "ListView.builder()"
+        },
+        {
+          "key": "B",
+          "text": "ListView.separated()"
+        },
+        {
+          "key": "C",
+          "text": "GridView.builder()"
+        },
+        {
+          "key": "D",
+          "text": "FixedListView.builder()"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 58,
+      "type": "single",
+      "stem": "在Flutter中，如何优化图片的内存占用？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用Image.memory()"
+        },
+        {
+          "key": "B",
+          "text": "使用缓存图片库，如cached_network_image"
+        },
+        {
+          "key": "C",
+          "text": "将图片尺寸调整为显示尺寸"
+        },
+        {
+          "key": "D",
+          "text": "B和C都是"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 59,
+      "type": "single",
+      "stem": "Flutter的Flexible Widget是用来做什么的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使其子Widget能够灵活地展开以填充额外的空间"
+        },
+        {
+          "key": "B",
+          "text": "为其子Widget提供弹性的布局属性"
+        },
+        {
+          "key": "C",
+          "text": "修改子 Widget 的 zIndex 层级"
+        },
+        {
+          "key": "D",
+          "text": "A和B都是"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 60,
+      "type": "single",
+      "stem": "使用哪个Widget可以实现在Flutter中自定义复杂的路径或图形绘制？",
+      "options": [
+        {
+          "key": "A",
+          "text": "CustomPainter"
+        },
+        {
+          "key": "B",
+          "text": "Canvas"
+        },
+        {
+          "key": "C",
+          "text": "Paint"
+        },
+        {
+          "key": "D",
+          "text": "Draw"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 61,
+      "type": "multi",
+      "stem": "（多选题）Flutter应用中的状态管理可以通过哪些方式实现？",
+      "options": [
+        {
+          "key": "A",
+          "text": "setState"
+        },
+        {
+          "key": "B",
+          "text": "Provider"
+        },
+        {
+          "key": "C",
+          "text": "Bloc"
+        },
+        {
+          "key": "D",
+          "text": "Stream"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 62,
+      "type": "single",
+      "stem": "如何在Flutter中对一个Widget应用多个装饰效果，如边框、圆角等？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用DecoratedBox"
+        },
+        {
+          "key": "B",
+          "text": "使用Container的decoration属性"
+        },
+        {
+          "key": "C",
+          "text": "直接在Widget上应用样式属性"
+        },
+        {
+          "key": "D",
+          "text": "使用 Box widget 的decoration 属性"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 63,
+      "type": "single",
+      "stem": "在Flutter中，StreamBuilder通常与哪种类型的数据使用？",
+      "options": [
+        {
+          "key": "A",
+          "text": "异步数据流"
+        },
+        {
+          "key": "B",
+          "text": "同步数据列表"
+        },
+        {
+          "key": "C",
+          "text": "静态数据"
+        },
+        {
+          "key": "D",
+          "text": "本地数据库数据"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 64,
+      "type": "single",
+      "stem": "MediaQuery.of(context).viewInsets.bottom 通常用于获取什么信息？",
+      "options": [
+        {
+          "key": "A",
+          "text": "底部导航栏的高度"
+        },
+        {
+          "key": "B",
+          "text": "底部软键盘的高度"
+        },
+        {
+          "key": "C",
+          "text": "应用底部的Widget高度"
+        },
+        {
+          "key": "D",
+          "text": "屏幕底部的边距"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 65,
+      "type": "single",
+      "stem": "Flutter中用于侦听特定类型的事件（如用户滚动）的Widget是哪个？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Listener"
+        },
+        {
+          "key": "B",
+          "text": "GestureDetector"
+        },
+        {
+          "key": "C",
+          "text": "EventCatcher"
+        },
+        {
+          "key": "D",
+          "text": "NotificationListener"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 66,
+      "type": "single",
+      "stem": "哪个关键字用于在Dart中定义一个扩展？",
+      "options": [
+        {
+          "key": "A",
+          "text": "extends"
+        },
+        {
+          "key": "B",
+          "text": "expands"
+        },
+        {
+          "key": "C",
+          "text": "extension"
+        },
+        {
+          "key": "D",
+          "text": "extra"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 67,
+      "type": "single",
+      "stem": "Flutter中SliverAppBar的主要功能是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "提供一个滑动时大小变化的顶部应用栏"
+        },
+        {
+          "key": "B",
+          "text": "创建一个静态的应用栏"
+        },
+        {
+          "key": "C",
+          "text": "添加多个按钮到应用栏"
+        },
+        {
+          "key": "D",
+          "text": "实现应用栏的透明效果"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 68,
+      "type": "single",
+      "stem": "Flutter（Dart）中对一个集合中的每个元素应用一个函数，并创建一个包含结果的新集合？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用map()方法"
+        },
+        {
+          "key": "B",
+          "text": "使用forEach()方法"
+        },
+        {
+          "key": "C",
+          "text": "使用apply()方法"
+        },
+        {
+          "key": "D",
+          "text": "使用transform()方法"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 69,
+      "type": "single",
+      "stem": "在pubspec.yaml文件中，如果你想声明一个只在你本地环境中有效的依赖路径，你应该如何操作？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用local_dependencies字段"
+        },
+        {
+          "key": "B",
+          "text": "使用path依赖类型并指定本地路径"
+        },
+        {
+          "key": "C",
+          "text": "直接将依赖文件复制到项目中"
+        },
+        {
+          "key": "D",
+          "text": "使用dependencies_override字段"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 70,
+      "type": "single",
+      "stem": "使用Navigator 2.0的主要优点是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "更简单的API"
+        },
+        {
+          "key": "B",
+          "text": "改进的性能"
+        },
+        {
+          "key": "C",
+          "text": "更灵活的路由管理和深层链接支持"
+        },
+        {
+          "key": "D",
+          "text": "自动的路由动画"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 71,
+      "type": "single",
+      "stem": "Mixin在Flutter中的使用场景是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "替代类的继承"
+        },
+        {
+          "key": "B",
+          "text": "允许类代码的重用，而不需要成为类的父类"
+        },
+        {
+          "key": "C",
+          "text": "实现接口"
+        },
+        {
+          "key": "D",
+          "text": "创建抽象类"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 72,
+      "type": "single",
+      "stem": "如何创建一个在3秒后解析的Future？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Future.delayed(3, () => 'Done')"
+        },
+        {
+          "key": "B",
+          "text": "Future.delayed(Duration(seconds: 3), () => 'Done')"
+        },
+        {
+          "key": "C",
+          "text": "new Future(3, () => 'Done')"
+        },
+        {
+          "key": "D",
+          "text": "Future(() => 'Done').delay(Duration(seconds: 3))"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 73,
+      "type": "single",
+      "stem": "哪一行代码可以正确地在Flutter中导航到新页面？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Navigator.push(context, MaterialPageRoute(builder: (context) => NewPage()));"
+        },
+        {
+          "key": "B",
+          "text": "Navigator.goto(NewPage);"
+        },
+        {
+          "key": "C",
+          "text": "Navigate.to(NewPage);"
+        },
+        {
+          "key": "D",
+          "text": "Push.context(NewPage);"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 74,
+      "type": "single",
+      "stem": "hide关键字在导入Dart库时有什么用途？",
+      "options": [
+        {
+          "key": "A",
+          "text": "隐藏并加密指定的成员"
+        },
+        {
+          "key": "B",
+          "text": "隐藏指定的成员，只导入库的其余部分"
+        },
+        {
+          "key": "C",
+          "text": "导入所有私有成员"
+        },
+        {
+          "key": "D",
+          "text": "隐藏所有成员，使库不可用"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 75,
+      "type": "single",
+      "stem": "如何在Flutter中全局更改应用的主题色？",
+      "options": [
+        {
+          "key": "A",
+          "text": "修改main.dart中MaterialApp的color属性"
+        },
+        {
+          "key": "B",
+          "text": "在MaterialApp的theme属性中设置primarySwatch"
+        },
+        {
+          "key": "C",
+          "text": "为每个Widget单独设置颜色属性"
+        },
+        {
+          "key": "D",
+          "text": "使用Theme Widget包裹MaterialApp"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 76,
+      "type": "single",
+      "stem": "在Flutter中使用FutureBuilder时，snapshot.hasData为true表示什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "数据加载中"
+        },
+        {
+          "key": "B",
+          "text": "数据加载失败"
+        },
+        {
+          "key": "C",
+          "text": "数据成功加载"
+        },
+        {
+          "key": "D",
+          "text": "未开始加载数据"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 77,
+      "type": "multi",
+      "stem": "（多选题）Flutter中关于异步编程的正确做法包括哪些？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用async和await关键字处理Future"
+        },
+        {
+          "key": "B",
+          "text": "通过then方法链处理Future结果"
+        },
+        {
+          "key": "C",
+          "text": "将所有函数改写为异步函数，即使它们不执行异步操作"
+        },
+        {
+          "key": "D",
+          "text": "使用FutureBuilder或StreamBuilder在UI中展示异步数据"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 78,
+      "type": "multi",
+      "stem": "（多选题）选择所有正确的陈述？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Column中的所有子Widget都将在其主轴上居中对齐。"
+        },
+        {
+          "key": "B",
+          "text": "Row中的图标将均匀分布，但两侧不留空间。"
+        },
+        {
+          "key": "C",
+          "text": "Container的文本Goodbye!将有10像素的填充。"
+        },
+        {
+          "key": "D",
+          "text": "RowWidget会使其内的图标在水平方向上等距离分开。"
+        }
+      ],
+      "answerKeys": [
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 79,
+      "type": "multi",
+      "stem": "（多选题）选择所有正确的陈述？",
+      "options": [
+        {
+          "key": "A",
+          "text": "点击浮动操作按钮将重建整个Scaffold。"
+        },
+        {
+          "key": "B",
+          "text": "文本组件会在每次点击按钮时更新显示的计数器值。"
+        },
+        {
+          "key": "C",
+          "text": "_incrementCounter方法中的setState调用是必要的，以触发UI的更新。"
+        },
+        {
+          "key": "D",
+          "text": "如果移除setState方法的调用，按钮点击将不会更新屏幕上的计数器。"
+        }
+      ],
+      "answerKeys": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 80,
+      "type": "multi",
+      "stem": "（多选题）选择所有正确的陈述？",
+      "options": [
+        {
+          "key": "A",
+          "text": "FadeInWidget可以使任何子Widget渐隐渐现。"
+        },
+        {
+          "key": "B",
+          "text": "_controller负责控制动画的时长和行为。"
+        },
+        {
+          "key": "C",
+          "text": "_animation的值范围从0.0变化到1.0。"
+        },
+        {
+          "key": "D",
+          "text": "如果不调用_controller.forward()，动画将不会自动开始。"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 81,
+      "type": "single",
+      "stem": "关于Flutter中的CustomPainter，以下哪项是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "用于创建自定义的布局Widget"
+        },
+        {
+          "key": "B",
+          "text": "允许开发者在画布上直接绘制图形"
+        },
+        {
+          "key": "C",
+          "text": "只能在StatelessWidget中使用"
+        },
+        {
+          "key": "D",
+          "text": "主要用于处理应用内的数据存储"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 82,
+      "type": "single",
+      "stem": "在Flutter中，FutureBuilder Widget的用途是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "管理基于时间的动画"
+        },
+        {
+          "key": "B",
+          "text": "构建依赖于异步操作结果的Widget"
+        },
+        {
+          "key": "C",
+          "text": "创建延迟加载的图片Widget"
+        },
+        {
+          "key": "D",
+          "text": "监听来自外部数据源的事件"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 83,
+      "type": "single",
+      "stem": "Flutter中的混合开发（如与原生代码的交互）主要通过什么实现？",
+      "options": [
+        {
+          "key": "A",
+          "text": "PlatformChannel"
+        },
+        {
+          "key": "B",
+          "text": "MethodChannel"
+        },
+        {
+          "key": "C",
+          "text": "EventChannel"
+        },
+        {
+          "key": "D",
+          "text": "B和C都正确"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 84,
+      "type": "multi",
+      "stem": "（多选题）Flutter中如何实现国际化和本地化？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用Intl包"
+        },
+        {
+          "key": "B",
+          "text": "在 Widget 中手动翻译每个字符串"
+        },
+        {
+          "key": "C",
+          "text": "只使用系统默认语言"
+        },
+        {
+          "key": "D",
+          "text": "使用Localizations Widget和相应的委托"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 85,
+      "type": "single",
+      "stem": "Flutter中Sliver系列Widget的主要作用是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "实现自定义的滑动效果"
+        },
+        {
+          "key": "B",
+          "text": "优化性能"
+        },
+        {
+          "key": "C",
+          "text": "提供银色主题"
+        },
+        {
+          "key": "D",
+          "text": "实现复杂的布局结构"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 86,
+      "type": "single",
+      "stem": "使用Isolate的主要目的是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "UI的国际化"
+        },
+        {
+          "key": "B",
+          "text": "在后台执行密集型任务"
+        },
+        {
+          "key": "C",
+          "text": "实现应用的多线程"
+        },
+        {
+          "key": "D",
+          "text": "优化网络请求"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 87,
+      "type": "multi",
+      "stem": "（多选题）Flutter中如何实现跨Widget的状态共享？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用GlobalKey"
+        },
+        {
+          "key": "B",
+          "text": "通过InheritedWidget"
+        },
+        {
+          "key": "C",
+          "text": "使用StateShare"
+        },
+        {
+          "key": "D",
+          "text": "使用Provider包"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "B",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 88,
+      "type": "single",
+      "stem": "在Flutter应用中实现复杂动画时，哪个类是必不可少的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "Animator"
+        },
+        {
+          "key": "B",
+          "text": "AnimationController"
+        },
+        {
+          "key": "C",
+          "text": "Tween"
+        },
+        {
+          "key": "D",
+          "text": "Animation"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 89,
+      "type": "single",
+      "stem": "Flutter中Hero动画的主要用途是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "创建屏幕之间共享元素的动画"
+        },
+        {
+          "key": "B",
+          "text": "在应用启动时显示动画"
+        },
+        {
+          "key": "C",
+          "text": "为列表项添加动画效果"
+        },
+        {
+          "key": "D",
+          "text": "实现复杂的背景动画"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 90,
+      "type": "multi",
+      "stem": "（多选题）在Flutter中，如何实现自定义的滑动效果或滚动物理？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用ScrollController"
+        },
+        {
+          "key": "B",
+          "text": "修改ScrollView的physics属性"
+        },
+        {
+          "key": "C",
+          "text": "通过继承ScrollPhysics类"
+        },
+        {
+          "key": "D",
+          "text": "使用CustomScrollView和自定义Slivers"
+        }
+      ],
+      "answerKeys": [
+        "B",
+        "C",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 91,
+      "type": "single",
+      "stem": "Flutter中，哪个类用于在多个屏幕大小和方向上保持UI的一致性？",
+      "options": [
+        {
+          "key": "A",
+          "text": "MediaQuery"
+        },
+        {
+          "key": "B",
+          "text": "ResponsiveWidget"
+        },
+        {
+          "key": "C",
+          "text": "LayoutBuilder"
+        },
+        {
+          "key": "D",
+          "text": "OrientationBuilder"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 92,
+      "type": "single",
+      "stem": "使用AnimationController和Tween在Flutter中创建动画时，如何实现非线性动画速度？",
+      "options": [
+        {
+          "key": "A",
+          "text": "使用CurvedAnimation"
+        },
+        {
+          "key": "B",
+          "text": "修改Tween的begin和end值"
+        },
+        {
+          "key": "C",
+          "text": "应用自定义的Interpolator"
+        },
+        {
+          "key": "D",
+          "text": "改变AnimationController的duration"
+        }
+      ],
+      "answerKeys": [
+        "A"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 93,
+      "type": "single",
+      "stem": "考虑以下Flutter Widget测试代码片段，哪些陈述是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "var (title, {age}) = getUser();"
+        },
+        {
+          "key": "B",
+          "text": "var (title, :age) = getUser();"
+        },
+        {
+          "key": "C",
+          "text": "var (title, {:age}) = getUser();"
+        },
+        {
+          "key": "D",
+          "text": "var ({title,required age}) = getUser();"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 94,
+      "type": "single",
+      "stem": "使用Dart FFI的主要目的是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "在Dart和JavaScript之间进行通信"
+        },
+        {
+          "key": "B",
+          "text": "允许Dart代码直接调用C语言API"
+        },
+        {
+          "key": "C",
+          "text": "提高应用的渲染速度"
+        },
+        {
+          "key": "D",
+          "text": "实现Web应用的服务端渲染"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 95,
+      "type": "multi",
+      "stem": "（多选题）Flutter中的BuildContext主要用于什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "管理Widget树中的位置"
+        },
+        {
+          "key": "B",
+          "text": "构建UI元素"
+        },
+        {
+          "key": "C",
+          "text": "控制Widget的生命周期"
+        },
+        {
+          "key": "D",
+          "text": "提供访问媒体查询和主题的途径"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 96,
+      "type": "single",
+      "stem": "以下哪个方法可以用于在Flutter Widget测试中查找特定的Text Widget？",
+      "options": [
+        {
+          "key": "A",
+          "text": "find.byType(Text)"
+        },
+        {
+          "key": "B",
+          "text": "find.byWidget(Text('Hello'))"
+        },
+        {
+          "key": "C",
+          "text": "find.text('Hello')"
+        },
+        {
+          "key": "D",
+          "text": "find.byElement(Text)"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 97,
+      "type": "single",
+      "stem": "当使用Future.wait处理多个Future时，如果其中一个Future抛出异常，会发生什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "所有Future都会被取消"
+        },
+        {
+          "key": "B",
+          "text": "只有抛出异常的Future会被取消"
+        },
+        {
+          "key": "C",
+          "text": "Future.wait会立即抛出异常，不再等待其他Future"
+        },
+        {
+          "key": "D",
+          "text": "Future.wait会等待所有Future完成，无论是否有异常"
+        }
+      ],
+      "answerKeys": [
+        "D"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 98,
+      "type": "single",
+      "stem": "在Flutter中， const 关键字的使用对性能优化有何作用？",
+      "options": [
+        {
+          "key": "A",
+          "text": "强制所有子widget重建"
+        },
+        {
+          "key": "B",
+          "text": "允许Flutter跳过这些widget的重建"
+        },
+        {
+          "key": "C",
+          "text": "使得widget可以响应状态变化"
+        },
+        {
+          "key": "D",
+          "text": "无影响"
+        }
+      ],
+      "answerKeys": [
+        "B"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 99,
+      "type": "multi",
+      "stem": "（多选题）考虑以下Flutter Widget测试代码片段，哪些陈述是正确的？",
+      "options": [
+        {
+          "key": "A",
+          "text": "测试验证MyWidget是否包含文本'T'和'M'"
+        },
+        {
+          "key": "B",
+          "text": "pumpWidget用于在测试环境内构建和渲染UI"
+        },
+        {
+          "key": "C",
+          "text": "findsOneWidget检查器验证是否有且只有一个Widget被找到"
+        },
+        {
+          "key": "D",
+          "text": "该测试运行需要真实设备或模拟器"
+        }
+      ],
+      "answerKeys": [
+        "A",
+        "B",
+        "C"
+      ],
+      "explanationMd": ""
+    },
+    {
+      "id": 100,
+      "type": "single",
+      "stem": "在Flutter中，ShaderMask Widget的用途是什么？",
+      "options": [
+        {
+          "key": "A",
+          "text": "为Widget应用背景色"
+        },
+        {
+          "key": "B",
+          "text": "创建复杂的滚动效果"
+        },
+        {
+          "key": "C",
+          "text": "对Widget应用自定义的着色器效果"
+        },
+        {
+          "key": "D",
+          "text": "管理应用的内存使用"
+        }
+      ],
+      "answerKeys": [
+        "C"
+      ],
+      "explanationMd": ""
+    }
+  ]
+}
