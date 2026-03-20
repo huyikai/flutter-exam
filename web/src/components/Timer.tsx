@@ -36,6 +36,22 @@ export function Timer({
     if (remainingSeconds <= 0) onTimeout()
   }, [remainingSeconds, onTimeout, startedAt, submittedAt])
 
-  return <span className="tabular-nums">{formatRemaining(remainingSeconds)}</span>
+  // 时间警告级别：<10分钟红色，<30分钟橙色
+  const isWarning = remainingSeconds < 600 // 10 minutes
+  const isCaution = remainingSeconds < 1800 // 30 minutes
+
+  return (
+    <span
+      className={`text-lg font-bold tabular-nums ${
+        isWarning
+          ? 'text-red-600 animate-pulse'
+          : isCaution
+            ? 'text-amber-600'
+            : 'text-blue-600'
+      }`}
+    >
+      {formatRemaining(remainingSeconds)}
+    </span>
+  )
 }
 

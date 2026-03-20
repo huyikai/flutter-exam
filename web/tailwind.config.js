@@ -31,6 +31,9 @@ export default {
           DEFAULT: 'var(--accent)',
           foreground: 'var(--accent-foreground)',
         },
+        'accent-blue': 'var(--accent-blue)',
+        'primary-hover': 'var(--primary-hover)',
+        'surface-container-high': 'var(--surface-container-high)',
         popover: {
           DEFAULT: 'var(--popover)',
           foreground: 'var(--popover-foreground)',
@@ -42,8 +45,23 @@ export default {
       },
       borderRadius: {
         lg: 'var(--radius)',
-        md: 'calc(var(--radius) - 2px)',
-        sm: 'calc(var(--radius) - 4px)',
+        md: '12px',
+        sm: '8px',
+      },
+      fontFamily: {
+        sans: ['Geist Variable', 'ui-sans-serif', 'system-ui', 'sans-serif'],
+      },
+      fontSize: {
+        'display': ['2.25rem', { lineHeight: '1.2', fontWeight: '700' }],
+        'headline': ['1.5rem', { lineHeight: '1.3', fontWeight: '600' }],
+        'title': ['1.125rem', { lineHeight: '1.4', fontWeight: '600' }],
+        'body': ['1rem', { lineHeight: '1.6' }],
+        'label': ['0.875rem', { lineHeight: '1.5' }],
+      },
+      boxShadow: {
+        'elevation-1': '0 1px 3px rgba(0, 0, 0, 0.08)',
+        'elevation-2': '0 4px 12px rgba(0, 0, 0, 0.08)',
+        'primary-glow': '0 4px 14px rgba(5, 83, 177, 0.4)',
       },
     },
   },
